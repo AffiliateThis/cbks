@@ -16,4 +16,4 @@ function imageLoader() {
   return images;
 }
 
-export default ImageLoader;
+export default Images;
