@@ -68,7 +68,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2019}
               jobName="One Crooked Tree | Operations Coordinator/Project Manager "
-              achievements="Achievements: significantly increased traffic to clients websites via SEO practices, thereby increasing sales.
+              achievements="Achievements: Significantly increased traffic to clients websites via SEO practices, thereby increasing sales.
               "
               listItem=" - Effectively managed the Email Newsletter generation and deployment for publishers while tracking QA and pixel implementation. "
               listItem2="- Usage and implementation providing better tracking potential of customers and client-management."
@@ -82,7 +82,7 @@ class Resume extends Component {
               startYear={2017}
               endYear={2019}
               jobName="AC Nutryst | Operations and Project Management"
-              achievements="Achievements:Increased client revenue streams by up to 400%.   
+              achievements="Achievements: Increased client revenue streams by up to 400%.   
           "
               listItem=" - Effectively hired and trained contractors to fulfill internal initiatives;  while also configuring tracking platforms to proficiently track metrics and profits. "
               listItem2="- Utilized Project Management to get assets built for clients and internal project site build-outs providing a more streamlined and efficient end product. 
@@ -96,9 +96,9 @@ class Resume extends Component {
               endYear={2017}
               jobName="Affiliate Crossing | Operations and Campaign Manager"
               achievements="Achievements: Increased our clients' revenues by approximately 300%."
-              listItem="Successfully managed staff and workflows and developed processes and procedures that improved efficiency. "
-              listItem2="Coordinated payment logistics of publishing channels"
-              listItem3="Configuring SAS as needed for cost savings and to accomplish more tasks. "
+              listItem="- Successfully managed staff and workflows and developed processes and procedures that improved efficiency. "
+              listItem2="- Coordinated payment logistics of publishing channels"
+              listItem3="- Configuring SAS as needed for cost savings and to accomplish more tasks. "
             />
 
             <hr style={{ borderTop: "3px solid #791dc1" }} />
