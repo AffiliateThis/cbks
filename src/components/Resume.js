@@ -67,10 +67,9 @@ class Resume extends Component {
               className="description"
               startYear={2018}
               endYear={2019}
-              jobName="One Crooked Tree | Co-founder/COO "
-              jobDescription="Successfully managed the day to day operations of a digital agency including clients’ projects and 
-          the operation of multiple SAS’s. Additionally, utilized Google Analytics and Tag Manager implementation/analysis for client 
-          base."
+              jobName="One Crooked Tree | Operations Coordinator/Project Manager "
+              achievements="Achievements: significantly increased traffic to clients websites via SEO practices, thereby increasing sales.
+              "
               listItem=" - Effectively managed the Email Newsletter generation and deployment for publishers while tracking QA and pixel implementation. "
               listItem2="- Usage and implementation providing better tracking potential of customers and client-management."
               listItem3="- Successfully managed project site development build-outs for clients."
@@ -82,17 +81,24 @@ class Resume extends Component {
               className="description"
               startYear={2017}
               endYear={2019}
-              jobName="AC Nutryst | Co-founder/COO"
-              jobDescription="Effectively hired and trained contractors to fulfill internal initiatives;  while also configuring tracking platforms to proficiently track metrics and profits. Utilized Project Management to get assets built for clients and internal project site build-outs providing a more streamlined and efficient end product. Effective coordination of projects for clients getting their product or service online and in front of more potential consumers. Increased client revenue streams by up to 300%.   
+              jobName="AC Nutryst | Operations and Project Management"
+              achievements="Achievements:Increased client revenue streams by up to 400%.   
           "
+              listItem=" - Effectively hired and trained contractors to fulfill internal initiatives;  while also configuring tracking platforms to proficiently track metrics and profits. "
+              listItem2="- Utilized Project Management to get assets built for clients and internal project site build-outs providing a more streamlined and efficient end product. 
+              "
+              listItem3="- Engineered validation synchronization for an internal insurance site"
             />
 
             <Experience
               className="description"
               startYear={2014}
               endYear={2017}
-              jobName="Affiliate Crossing | Co-founder/COO"
-              jobDescription="Successfully managed staff and workflows and developed processes and procedures that improved efficiency. Configuring SAS as needed for cost savings and to accomplish more tasks. Increased our clients' revenues by approximately 300%."
+              jobName="Affiliate Crossing | Operations and Campaign Manager"
+              achievements="Achievements: Increased our clients' revenues by approximately 300%."
+              listItem="Successfully managed staff and workflows and developed processes and procedures that improved efficiency. "
+              listItem2="Coordinated payment logistics of publishing channels"
+              listItem3="Configuring SAS as needed for cost savings and to accomplish more tasks. "
             />
 
             <hr style={{ borderTop: "3px solid #791dc1" }} />

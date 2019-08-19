@@ -1,0 +1,17 @@
+{
+    "projectName": "cbks",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": ""
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
