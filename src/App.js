@@ -16,7 +16,7 @@ class App extends Component {
                 style={{ textDecoration: "none", color: "whitesmoke" }}
                 to="/"
               >
-                CKSPortfolio
+                CBKS Portfolio
               </Link>
             }
             scroll
@@ -28,7 +28,7 @@ class App extends Component {
               <Link to="./contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Menu">
             <Navigation>
               <Link to="./resume">Resume</Link>
 

@@ -43,7 +43,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    chris.kautz@gmail.com
+                    c@chrisks.com
                   </ListItemContent>
                 </ListItem>
               </List>
