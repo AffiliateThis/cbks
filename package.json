@@ -7,6 +7,8 @@
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-google-tag-manager": "^2.2.1",
+    "react-gtm-module": "^2.0.8",
     "react-mdl": "^1.11.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",

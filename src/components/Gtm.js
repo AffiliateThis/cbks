@@ -1,5 +1,5 @@
 import React from 'React';
-import gtmParts from 'react-google-tag-manager';
+import gtmParts from 'React-google-tag-manager';
 
 
 class Gtm extends Component{

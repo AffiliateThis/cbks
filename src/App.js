@@ -2,8 +2,20 @@ import React, { Component } from "react";
 import "./App.css";
 import { Layout, Navigation, Header, Drawer, Content } from "react-mdl";
 import Main from "./components/Main";
-import { Link } from "react-router-dom";
+import { Link, Router } from "react-router-dom";
+import ReactDOM from 'react-dom';
+// import Router from 'react-router';
 
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "GTM-5DVD5DF"
+};
+
+TagManager.initialize(tagManagerArgs);
+
+const app = document.getElementById("app");
+// ReactDOM.render(<Router routes={routes} />, app);
 
 class App extends Component {
   render() {
