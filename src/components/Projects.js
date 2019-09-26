@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
-  Tab,
   Tabs,
+  Tab,
   Grid,
   Cell,
   Card,
@@ -22,48 +22,91 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ width: "600", margin: "auto" }}>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "176px",
-              background:
-                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564031881/relay%20estimator/chart_screenshot_ooamkj.png) center / cover"
-            }}
-          >
-            React Project
-          </CardTitle>
-          <CardText>
-            In this project, the team created an app that helps
-            designers/developers provide cost estimates/forecasts based on each
-            task per project. Once a project is added, the total cost of each
-            task is calculated, based on the estimated hrs of completion and
-            cost per hour. A Doughnut Chart beautifully displays tasks based on
-            the value and sums up the project total.
-          </CardText>
-          <CardActions border>
-            <Button
-              colored
-              href="https://salty-reef-43633.herokuapp.com"
-              target="_blank"
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564031881/relay%20estimator/chart_screenshot_ooamkj.png) center / cover"
+              }}
             >
-              URL
-            </Button>
-            <Button
-              colored
-              href="https://github.com/jmschindele/group_project_3"
-              target="_blank"
+              React Project #1
+            </CardTitle>
+            <CardText>
+              In this project, the team created an app that helps
+              designers/developers provide cost estimates/forecasts based on
+              each task per project. Once a project is added, the total cost of
+              each task is calculated, based on the estimated hrs of completion
+              and cost per hour. A Doughnut Chart beautifully displays tasks
+              based on the value and sums up the project total.
+            </CardText>
+            <CardActions border>
+              <Button
+                colored
+                href="https://salty-reef-43633.herokuapp.com"
+                target="_blank"
+              >
+                URL
+              </Button>
+              <Button
+                colored
+                href="https://github.com/jmschindele/group_project_3"
+                target="_blank"
+              >
+                Github
+              </Button>
+              <Button colored href="http://bit.ly/2Ydgk2n" target="_blank">
+                Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1569459088/chrisks.com_screenshot_lkoe1n.png) center / cover"
+              }}
             >
-              Github
-            </Button>
-            <Button colored href="http://bit.ly/2Ydgk2n" target="_blank">
-              Demo
-            </Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            {/* <IconButton name="share" /> */}
-          </CardMenu>
-        </Card>
+              React Project #2
+            </CardTitle>
+            <CardText>
+              In this project I am showcasing this site https://chrisks.com . It
+              was built in React-Mdl, and it has GTM or Google Tag Manager with
+              a Google Analytics built into the container.The whole purpose of
+              the site is to provide contact information about me and some
+              projects I have completed. There will be a few more additions to
+              this site.
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://chrisks.com" target="_blank">
+                URL
+              </Button>
+              <Button
+                colored
+                href="https://github.com/AffiliateThis/cbks"
+                target="_blank"
+              >
+                Github
+              </Button>
+              <Button colored href="" target="_blank">
+                NA
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+        </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
@@ -121,6 +164,7 @@ class Projects extends Component {
                 "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564067843/relay%20estimator/BOAT_Systems_Demo_pic_mozhto.png) center / cover"
             }}
           >
+            {" "}
             Javascript
           </CardTitle>
           <CardText>
@@ -144,17 +188,27 @@ class Projects extends Component {
             <Button colored href="" target="_blank">
               Demo
             </Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
+
+
+
+
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
             {/* <IconButton name="share" /> */}
           </CardMenu>
         </Card>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <h1>This is MongoDB</h1>
+        </div>
       );
     }
   }
   render() {
     return (
-      <div className="category-tabs">
+      <div>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
@@ -162,16 +216,14 @@ class Projects extends Component {
         >
           <Tab>React</Tab>
           <Tab>Express</Tab>
+
           <Tab>Javascript</Tab>
         </Tabs>
-
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     );
   }

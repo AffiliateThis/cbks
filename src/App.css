@@ -85,6 +85,7 @@
 
 .projects-grid {
   display: flex;
+  padding: 5px;
 }
 
 .avatar-img {
