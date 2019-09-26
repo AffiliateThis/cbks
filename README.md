@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is my personal portfolio and eventual about me site.  It was built in React-Mdl, and it has GTM or Google Tag Manager with a Google Analytics built into the container.The whole purpose of the site is to provide contact information about me and some projects I have completed. There will be a few more additions to this site.  The site is currently deployed to Heroku 
+This is my personal portfolio and eventual about me site.  It was built in React-Mdl, and it has GTM or Google Tag Manager with a Google Analytics built into the container.The whole purpose of the site is to provide contact information about me and some projects I have completed. There will be a few more additions to this site.  The site is currently deployed to Heroku.   The uptime is monitored by Freshping. 
 
 
 
