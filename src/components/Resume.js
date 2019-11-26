@@ -56,12 +56,26 @@ class Resume extends Component {
               | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS |
               Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku |
               Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary |
-              Quickbooks
+              Quickbooks | MDL | World Clock API | Axios | Ajax
             </h5>
 
             <hr style={{ borderTop: "3px solid #791dc1" }} />
 
             <h3>Experience</h3>
+
+            <Experience
+              className="description"
+              startYear={2019}
+              endYear={2019}
+              jobName="Self-Employed | Freelance Developer "
+              achievements="Achievements:  Provides outstanding development expertise to clients for ongoing and one-time projects..
+              "
+              listItem=" - Continued to research and educate on additional skills. "
+              listItem2="- Built my own ReactJS site in React-MDL site."
+              listItem3="- Uses Github to manage commits and house projects and sites."
+              listItem4="- Setup hosting environments that included traditional cpanel as well as Heroku and Cloudflare DNS."
+              listItem5="- Building a React site for a client with customized components, and designed with Photoshop."
+            />
 
             <Experience
               className="description"

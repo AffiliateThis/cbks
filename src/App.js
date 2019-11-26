@@ -3,10 +3,13 @@ import "./App.css";
 import { Layout, Navigation, Header, Drawer, Content } from "react-mdl";
 import Main from "./components/Main";
 import { Link, Router } from "react-router-dom";
-import ReactDOM from 'react-dom';
-// import Router from 'react-router';
-
+import ReactDOM from "react-dom";
 import TagManager from "react-gtm-module";
+
+// const express = require("express");
+// const cors = require("cors");
+// const mysql = require("mysql");
+// import Router from 'react-router';
 
 const tagManagerArgs = {
   gtmId: "GTM-5DVD5DF"

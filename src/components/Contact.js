@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import Form from "./Form";
 
 class Contact extends Component {
   render() {
@@ -13,7 +14,14 @@ class Contact extends Component {
               alt="avatar"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                paddingBottom: "1em"
+              }}
+            >
               Team Oriented Web Developer with a background in digital marketing
               and tracking customer acquisition, with a Full-Stack Certificate
               from the University of Richmond. Skilled in digital marketing

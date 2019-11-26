@@ -195,7 +195,7 @@ class Projects extends Component {
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
             {/* <IconButton name="share" /> */}
-          </CardMenu>
+          </CardMenu> 
         </Card>
       );
     } else if (this.state.activeTab === 3) {
