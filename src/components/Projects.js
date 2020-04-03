@@ -22,7 +22,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid"> 
+        <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -175,12 +175,12 @@ class Projects extends Component {
             movement.
           </CardText>
           <CardActions border>
-            <Button colored href="http://bit.ly/2OqWRM0 " target="_blank">
+            <Button colored href="https://bit.ly/2wZH275 " target="_blank">
               URL
             </Button>
             <Button
               colored
-              href="https://github.com/josephedward/group-project-1"
+              href="https://github.com/josephedward/SpanMove-B.O.A.T.-Systems-"
               target="_blank"
             >
               Github
@@ -188,14 +188,10 @@ class Projects extends Component {
             <Button colored href="" target="_blank">
               Demo
             </Button>
-
-
-
-
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
             {/* <IconButton name="share" /> */}
-          </CardMenu> 
+          </CardMenu>
         </Card>
       );
     } else if (this.state.activeTab === 3) {
