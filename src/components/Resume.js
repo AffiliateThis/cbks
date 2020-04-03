@@ -43,7 +43,7 @@ class Resume extends Component {
             <h5>Phone:</h5>
             <p className="contactInfo">(804) 357-1353</p>
             <h5>Email:</h5>
-            <p className="contactInfo">chris.kautz@gmail.com</p>
+            <p className="contactInfo">c@chrisks.com</p>
             <h5>Website:</h5>
             <p className="contactInfo">chrisks.com</p>
           </Cell>
@@ -66,9 +66,23 @@ class Resume extends Component {
             <Experience
               className="description"
               startYear={2019}
-              endYear={2019}
+              endYear={false}
+              jobName="Digistore24, Inc | Vendor Consultant "
+              achievements="Achievements:  Assisting Vendors and Affiliates many times a day.
+              "
+              listItem=" - Provide Guidance to both Vendors and Affiliates, and Internal Digistore24 staff. "
+              listItem2="- Solve complex tracking and site logistical problems."
+              listItem3="- Provide Integration Support for 3rd Party systems."
+              listItem4="- Staying up to date on trends and other systems that can work with Digistore24."
+              listItem5="- Assisting in strategy of the US based Digistore24 and additional integration partnerships."
+            />
+
+            <Experience
+              className="description"
+              startYear={2019}
+              endYear={false}
               jobName="Self-Employed | Freelance Developer "
-              achievements="Achievements:  Provides outstanding development expertise to clients for ongoing and one-time projects..
+              achievements="Achievements:  Provides outstanding development expertise to clients for ongoing and one-time projects.
               "
               listItem=" - Continued to research and educate on additional skills. "
               listItem2="- Built my own ReactJS site in React-MDL site."

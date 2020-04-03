@@ -20,6 +20,7 @@ class Contact extends Component {
                 margin: "auto",
                 paddingTop: "1em",
                 paddingBottom: "1em"
+                
               }}
             >
               Team Oriented Web Developer with a background in digital marketing
