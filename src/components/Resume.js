@@ -52,7 +52,7 @@ class Resume extends Component {
             <h2>Skills</h2>
 
             <h5 className="resSkills">
-              Kount Command | Clckup | Confluence | Jira | Okta | LasPass |Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
+              Kount Command | Clckup | Confluence | Jira | Okta | LasPass | Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
               | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS |
               Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku |
               Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary |
