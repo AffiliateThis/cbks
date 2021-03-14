@@ -30,7 +30,7 @@ class Resume extends Component {
               className="
             brandInfo"
             >
-              Team-oriented Web Developer with a background in digital marketing
+              Team-oriented Web Developer and Solutions' Analyst with a background in digital marketing
               and customer acquisition, with Full-Stack Certification from the
               University of Richmond. Skilled in digital marketing tracking
               platforms, CRM and SAS implementation/configurations. A proven
@@ -52,7 +52,7 @@ class Resume extends Component {
             <h2>Skills</h2>
 
             <h5 className="resSkills">
-              Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
+              Kount Command | Clckup | Confluence | Jira | Okta | LasPass |Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
               | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS |
               Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku |
               Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary |
@@ -67,14 +67,17 @@ class Resume extends Component {
               className="description"
               startYear={2019}
               endYear={false}
-              jobName="Digistore24, Inc | Vendor Consultant "
-              achievements="Achievements:  Assisting Vendors and Affiliates many times a day.
+              jobName="Digistore24, Inc | Application Support Manager "
+              achievements="Achievements:  Successfully helped increase Digistore24, Inc 
+              from a few million annually to many millions per month both from helping revenue generating channels grow to implementing processes and integrations for scalability.
               "
               listItem=" - Provide Guidance to both Vendors and Affiliates, and Internal Digistore24 staff. "
               listItem2="- Solve complex tracking and site logistical problems."
               listItem3="- Provide Integration Support for 3rd Party systems."
               listItem4="- Staying up to date on trends and other systems that can work with Digistore24."
               listItem5="- Assisting in strategy of the US based Digistore24 and additional integration partnerships."
+              listItem6=" - Writing detailed specs for feature request enhancements to the Digistore24 platform based on either increasing revenue or enhancing operational stability."
+               listItem7=" - Working with the Compliance and Risk Department to help setup processes and automation with 3rd party services including Kount."
             />
 
             <Experience
