@@ -26,6 +26,24 @@ class Experience extends Component {
           <p>{this.props.listItem3}</p>
           <p>{this.props.listItem4}</p>
           <p>{this.props.listItem5}</p>
+          <p>{this.props.listItem6}</p>
+          <p>{this.props.listItem7}</p>
+          <p>{this.props.listItem8}</p>
+          <p>{this.props.listItem9}</p>
+          <p>{this.props.listItem10}</p>
+          <p>{this.props.listItem11}</p>
+          <p>{this.props.listItem12}</p>
+          <p>{this.props.listItem13}</p>
+          <p>{this.props.listItem14}</p>
+          <p>{this.props.listItem15}</p>
+          <p>{this.props.listItem16}</p>
+
+
+
+
+
+
+
         </Cell>
       </Grid>
     );
